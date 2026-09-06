@@ -25,7 +25,7 @@ Windows 默认目录是 `%USERPROFILE%\.codex\skills\cell_no_ai`，macOS 是 `~/
 
 告诉 Codex：`用 cell_no_ai 检测水印`，或附上 PNG/JPG 并说 `用 cell_no_ai 去水印`。
 
-去水印需要自行配置小描 API Key。只在安全凭据存储中保存，不提交到仓库。详细凭据规则、API 契约及操作顺序见 [SKILL.md](SKILL.md) 和 [接口说明](references/api.md)。本仓库提供 agent 工作流说明，不捆绑运行环境或服务端，也不内置密钥。
+去水印需要小描 API Key。你可以直接把 Key 粘贴到 Codex 聊天框，由助手完成配置，无需自己设置环境变量或运行命令。助手不回显密钥，持久保存时仅使用 Windows DPAPI 或 macOS Keychain，不提交到仓库。详细凭据规则、API 契约及操作顺序见 [SKILL.md](SKILL.md) 和 [接口说明](references/api.md)。本仓库提供 agent 工作流说明，不捆绑运行环境或服务端，也不内置密钥。
 
 ## 许可
 
